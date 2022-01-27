@@ -2,9 +2,30 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-white: #FFFFFF;
+  --color-white-light: #F5F5F5;
+  --color-white-light-2: #D1D5DB;
+  --color-white-light-3: #DCDCDC;
+  --background-main: #23252C;
+  --color-dark-icon: #1E1F26;
+  --color-dark-card-background: #1A1B21;
+  --color-dark-foter: #161619;
+  --color-light-footer: #D5D4D8;
+  --color-light-name: #2B283A;
+  --color-dark-footer-icon: #918E9B;
+  --color-role: #F3BF99;
+  --color-linkedin: #5093E2;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-size: 62.5%;
   font-family: 'Inter', sans-serif;
+}
+
+.App {
+  background-color: var(--background-main);
+  height: 100vh;
 }
