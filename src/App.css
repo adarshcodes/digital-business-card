@@ -152,3 +152,32 @@ body {
   font-size: 1.024rem;
   color: var(--color-white-light-2);
 }
+
+.footer {
+  background-color: var(--color-dark-foter);
+  width: 100%;
+  border-radius: 0 0 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-icon a{
+  text-decoration: none;
+  font-size: 2.5rem;
+  margin: 0 1rem;
+  color: var(--color-dark-footer-icon);
+}
+
+.footer-icon a:hover {
+  color: var(--color-white);
+  transition: all .5s;
+}
