@@ -12,7 +12,7 @@ class Footer extends React.Component {
 						</a>
 					</li>
 					<li className="footer-icon">
-						<a href="#">
+						<a href="#null">
 							<i class="fab fa-facebook-square"></i>
 						</a>
 					</li>

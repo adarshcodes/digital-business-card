@@ -9,13 +9,17 @@
   --color-white-light-3: #DCDCDC;
   --background-main: #23252C;
   --color-dark-icon: #1E1F26;
-  --color-dark-card-background: #1A1B21;
+  --color-card-background: #1A1B21;
   --color-dark-foter: #161619;
   --color-light-footer: #D5D4D8;
   --color-light-name: #2B283A;
   --color-dark-footer-icon: #918E9B;
   --color-role: #F3BF99;
   --color-linkedin: #5093E2;
+}
+
+body.dark {
+  --color-card-background: #F5F5F5;
 }
 
 body {
@@ -37,7 +41,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
-  background-color: var(--color-dark-card-background);
+  background-color: var(--color-card-background);
 }
 
 .info-content {
