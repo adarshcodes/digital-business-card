@@ -27,5 +27,94 @@ body {
 
 .App {
   background-color: var(--background-main);
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 31.7rem;
+  text-align: center;
+  border-radius: 1rem 1rem 0 0;
+  background-color: var(--color-dark-card-background);
+}
+
+.profile-picture {
+  height: 31.7rem;
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  background: url('./images/profile.jpg') no-repeat;
+  background-size: cover;
+}
+
+.profile-name {
+  font-size: 2.5rem;
+  color: var(--color-white);
+  margin-bottom: 0;
+}
+
+.role {
+  font-size: 1.28rem;
+  color: var(--color-role);
+  margin: .5rem 0;
+}
+
+.site a {
+  font-size: 1.024rem;
+  color: var(--color-white-light);
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 2rem 0;
+  padding: 0 3rem;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  border-radius: .6rem;
+  height: 3.4rem;
+  width: 11.5rem;
+}
+
+.contact-button a {
+  text-decoration: none;
+}
+
+.button-light {
+  background-color: var(--color-white);
+}
+
+.button-light a {
+  color: var(--color-light-name);
+}
+
+.button-light i{
+  color: var(--color-dark-icon);
+  margin-right: .5rem;
+}
+
+.button-dark {
+  background-color: var(--color-linkedin);
+}
+
+.button-dark a {
+  color: var(--color-white);
+}
+
+.button-dark i{
+  color: var(--color-white);
+  margin-right: .5rem;
 }
